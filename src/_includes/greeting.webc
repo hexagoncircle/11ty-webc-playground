@@ -1,0 +1,10 @@
+<p class="greeting">Hello there! My name is <span @text="name"></span></p>
+
+<style>
+  .greeting span {
+    font-weight: bold;
+    background-color: papayawhip;
+    padding: 0.2em 0.3em;
+    border-radius: 0.125rem;
+  }
+</style>

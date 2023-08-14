@@ -1,2 +1,3 @@
 # 11ty-webc-playground
-⚠️ Testing area
+
+A place to test 11ty webc features and troubleshoot buggies.

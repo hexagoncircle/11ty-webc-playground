@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>11ty webc playground</title>
+    <style @raw="getBundle('css')" webc:keep></style>
+  </head>
+  <body>
+    <div @raw="content" webc:nokeep></div>
+    <script type="module" @raw="getBundle('js')" webc:keep></script>
+  </body>
+</html>
+
+<style>
+  body {
+    font-family: system-ui;
+  }
+</style>
